@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3b1a441-d13f-40cd-93c8-851e81bf973f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/n_gram$txt_2_sql5_original.coverage" NAME="txt_2_sql5_original Coverage Results" MODIFIED="1520475919411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="txt_2_sql5_original.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/txt_2_sql5_original.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="99" column="33" lean-forward="true" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+              <folding>
+                <marker date="1520475919205" expanded="true" signature="1059:1152" ph="CREATE TABLE... t_word" />
+                <marker date="1520475919205" expanded="true" signature="1181:1451" ph="CREATE TABLE... t_3gram" />
+                <marker date="1520475919205" expanded="true" signature="1493:1711" ph="CREATE TABLE... t_2gram" />
+                <marker date="1520475919205" expanded="true" signature="1753:1918" ph="CREATE TABLE... t_1gram" />
+                <marker date="1520475919205" expanded="true" signature="2063:2096" ph="SELECT rowid... t_word" />
+                <marker date="1520475919205" expanded="true" signature="2809:2829" ph="UPDATE t_%dg... " />
+                <marker date="1520475919205" expanded="true" signature="2809:2861" ph="UPDATE t_%dg... " />
+                <marker date="1520475919205" expanded="true" signature="2809:2862" ph="UPDATE t_%dg... " />
+                <marker date="1520475919205" expanded="true" signature="2809:2864" ph="UPDATE t_%dg... " />
+                <marker date="1520475919205" expanded="true" signature="3021:3057" ph="SELECT 1 FRO... t_" />
+                <marker date="1520475919205" expanded="true" signature="3021:3058" ph="SELECT 1 FRO... t_" />
+                <marker date="1520475919205" expanded="true" signature="5117:5165" ph="INSERT INTO t_word... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="txt_2_sql5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="111" column="24" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="111" selection-end-column="24" />
+              <folding>
+                <element signature="e#89#98#0" expanded="true" />
+                <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+                <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+                <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+                <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+                <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+                <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+                <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+                <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+              <folding>
+                <marker date="1520238357774" expanded="true" signature="435:477" ph="select rowid... t_word" />
+                <marker date="1520238357774" expanded="true" signature="881:923" ph="select sum(n... t_missing_valuegram" />
+                <marker date="1520238357774" expanded="true" signature="1112:1148" ph="select count... t_missing_valuegram" />
+                <marker date="1520238357774" expanded="true" signature="1577:1665" ph="select sum(n... t_missing_valuegram" />
+                <marker date="1520238357774" expanded="true" signature="1877:1999" ph="select ngram... t_missing_valuegram" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsed2sqlv0d.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+                <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+                <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+                <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+                <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+                <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+                <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+                <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commit</find>
+      <find>create_sql_tables</find>
+      <find>gen_table2</find>
+      <find>path_folder_ngram_txt</find>
+      <find>fstring</find>
+      <find>insert_str</find>
+      <find>insert_str_exist</find>
+      <find>match_str</find>
+      <find>gen_sqlstr</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/parsed2sqlv0d.py" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$USER_HOME$/Downloads/temp.py" />
+        <option value="$PROJECT_DIR$/txt_2_sql5.py" />
+        <option value="$PROJECT_DIR$/txt_2_sql5_original.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="487" />
+    <option name="y" value="21" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="n_gram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n_gram" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/temp.py" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.txt_2_sql5_original">
+    <configuration name="parsed2sqlv0d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="n_gram" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsed2sqlv0d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="txt_2_sql5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="n_gram" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt_2_sql5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="txt_2_sql5_original" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="n_gram" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txt_2_sql5_original.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.parsed2sqlv0d" />
+      <item index="1" class="java.lang.String" itemvalue="Python.txt_2_sql5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.txt_2_sql5_original" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.txt_2_sql5_original" />
+        <item index="1" class="java.lang.String" itemvalue="Python.txt_2_sql5" />
+        <item index="2" class="java.lang.String" itemvalue="Python.txt_2_sql5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.txt_2_sql5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.txt_2_sql5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3b1a441-d13f-40cd-93c8-851e81bf973f" name="Default" comment="" />
+      <created>1517374801802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517374801802</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40572035" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3654661" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40572035" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4523305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35487288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="queries" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>'CREATE' in dump[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'t_word' in dump[4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(name_table or 't_word') in dump[4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dump[4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dump</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(queries)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(query)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>query</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(name_table or 't_word') in queries[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>query</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2604">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4935">
+          <caret line="239" column="79" lean-forward="true" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="79" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5_original.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520475919205" expanded="true" signature="1059:1152" ph="CREATE TABLE... t_word" />
+            <marker date="1520475919205" expanded="true" signature="1181:1451" ph="CREATE TABLE... t_3gram" />
+            <marker date="1520475919205" expanded="true" signature="1493:1711" ph="CREATE TABLE... t_2gram" />
+            <marker date="1520475919205" expanded="true" signature="1753:1918" ph="CREATE TABLE... t_1gram" />
+            <marker date="1520475919205" expanded="true" signature="2063:2096" ph="SELECT rowid... t_word" />
+            <marker date="1520475919205" expanded="true" signature="2809:2829" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2861" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2862" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2864" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="3021:3057" ph="SELECT 1 FRO... t_" />
+            <marker date="1520475919205" expanded="true" signature="3021:3058" ph="SELECT 1 FRO... t_" />
+            <marker date="1520475919205" expanded="true" signature="5117:5165" ph="INSERT INTO t_word... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="216" column="59" lean-forward="true" selection-start-line="216" selection-start-column="59" selection-end-line="216" selection-end-column="59" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4266">
+          <caret line="237" column="0" lean-forward="true" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30006">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4608">
+          <caret line="256" column="33" lean-forward="true" selection-start-line="256" selection-start-column="33" selection-end-line="256" selection-end-column="33" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30006">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4122">
+          <caret line="229" column="51" lean-forward="true" selection-start-line="229" selection-start-column="51" selection-end-line="229" selection-end-column="51" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30006">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4572">
+          <caret line="254" column="32" lean-forward="true" selection-start-line="254" selection-start-column="32" selection-end-line="254" selection-end-column="32" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="10" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30006">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/parsed2sqlv0d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1519972455962" expanded="true" signature="2412:2505" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2541:2889" ph="CREATE TABLE... IF" />
+            <marker date="1519972455962" expanded="true" signature="2978:3019" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="3090:3129" ph="INSERT INTO t_word... " />
+            <marker date="1519972455962" expanded="true" signature="3162:3203" ph="SELECT rowid... t_word" />
+            <marker date="1519972455962" expanded="true" signature="4003:4093" ph="SELECT ngram... t_5gram" />
+            <marker date="1519972455962" expanded="true" signature="4306:4399" ph="UPDATE t_5gr... " />
+            <marker date="1519972455962" expanded="true" signature="4512:4593" ph="INSERT INTO t_5gram... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="111" column="24" lean-forward="true" selection-start-line="110" selection-start-column="12" selection-end-line="111" selection-end-column="24" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+            <marker date="1520239264803" expanded="true" signature="1053:1146" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1171:1441" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1484:1702" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="1745:1910" ph="CREATE TABLE... IF" />
+            <marker date="1520239264803" expanded="true" signature="2048:2081" ph="SELECT rowid... t_word" />
+            <marker date="1520239264803" expanded="true" signature="4089:4137" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="6161:6209" ph="INSERT INTO t_word... " />
+            <marker date="1520239264803" expanded="true" signature="9450:9467" ph="DROP TABLE t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/txt_2_sql5_original.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="99" column="33" lean-forward="true" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <marker date="1520475919205" expanded="true" signature="1059:1152" ph="CREATE TABLE... t_word" />
+            <marker date="1520475919205" expanded="true" signature="1181:1451" ph="CREATE TABLE... t_3gram" />
+            <marker date="1520475919205" expanded="true" signature="1493:1711" ph="CREATE TABLE... t_2gram" />
+            <marker date="1520475919205" expanded="true" signature="1753:1918" ph="CREATE TABLE... t_1gram" />
+            <marker date="1520475919205" expanded="true" signature="2063:2096" ph="SELECT rowid... t_word" />
+            <marker date="1520475919205" expanded="true" signature="2809:2829" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2861" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2862" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="2809:2864" ph="UPDATE t_%dg... " />
+            <marker date="1520475919205" expanded="true" signature="3021:3057" ph="SELECT 1 FRO... t_" />
+            <marker date="1520475919205" expanded="true" signature="3021:3058" ph="SELECT 1 FRO... t_" />
+            <marker date="1520475919205" expanded="true" signature="5117:5165" ph="INSERT INTO t_word... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <marker date="1520238357774" expanded="true" signature="435:477" ph="select rowid... t_word" />
+            <marker date="1520238357774" expanded="true" signature="881:923" ph="select sum(n... t_missing_valuegram" />
+            <marker date="1520238357774" expanded="true" signature="1112:1148" ph="select count... t_missing_valuegram" />
+            <marker date="1520238357774" expanded="true" signature="1577:1665" ph="select sum(n... t_missing_valuegram" />
+            <marker date="1520238357774" expanded="true" signature="1877:1999" ph="select ngram... t_missing_valuegram" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
